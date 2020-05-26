@@ -21,3 +21,8 @@ Here the target platform is explicitly stated as "x64-windows" because the defau
 platform which vcpkg chooses if you just type `.\vcpkg install depname` is "x86-windows"
 which is probably not what you want and you might get strange errors from CMake that your dependencies
 cannot be found. 
+
+## Dependencies
+Install as described above. All dependencies are searched for in the global CMakeLists.txt via `find_package()`
+
+* fmt
