@@ -6,7 +6,7 @@ Windows with Visual Studio and vcpkg for package management.
 ## Prerequisites
 
 You need a working installation of Visual Studio (tested for 2019) and vcpkg.
-Vcpkg can be found [here](https://github.com/Microsoft/vcpkg]) . If you have vcpkg 
+Vcpkg can be found [here](https://github.com/Microsoft/vcpkg) . If you have vcpkg 
 installed you can install dependencies and make them available system-wide. 
 
 ```bash
